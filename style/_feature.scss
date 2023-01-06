@@ -1,0 +1,56 @@
+.feature-container{
+    margin: 0 auto;
+    max-width: 1345px;
+    height: 819px;
+    background: rgba(242, 247, 255, 0.5);
+    .cards{
+        display: flex;
+    }
+    
+    .card-left{
+        width: 572px;
+        h2{ width: 426px;
+            margin-left: 165px;
+            padding-top: 97px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 32px;
+        }
+        .visit{
+            margin-top: 68px;
+            margin-left: 168px;
+            display: flex;
+            gap: 27px;
+           
+            .text{
+                h5{ margin-right: 753px;
+                    width: 428px;
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 24px;
+                    line-height: 32px;
+                }
+                p{  margin-right: 753px;
+                    margin-top: 8px;
+                    width: 428px;
+                    font-family: 'Gilroy';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+    .card-right{
+        
+        img{
+            margin-top: 73px;
+            height: 666.578125px;
+            width: 411.4647521972656px;
+        }
+    }
+}

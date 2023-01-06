@@ -1,0 +1,44 @@
+.footer-container{
+    margin: 0 auto;
+    max-width: 1345px;
+    height: 520px;
+    background-color:  #1D2530;
+
+    .pas{
+        background-color: #141B23;
+        height: 72px;
+
+        p{
+            color: white;
+            display: flex;
+            align-items: center;
+            padding: 25px;
+        }
+    }
+
+    .ft{
+        display: flex;
+
+        .fut-nav1{
+            p{
+                padding-top: 104px;
+                padding-left: 30px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                color: white;
+            }
+            li{
+                padding-top: 32px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 26px;
+                color: white;
+            }
+        }
+    }
+}

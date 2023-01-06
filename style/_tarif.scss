@@ -1,0 +1,82 @@
+.tarif-container{
+    margin: 0 auto;
+    max-width: 1345px;
+    background: rgba(242, 247, 255, 0.5);
+    h1{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 46px;
+        line-height: 64px;
+        text-align: center; 
+        color: #1D2530;
+    }
+    h3{ 
+        text-align: center; 
+        color: #1D2530;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 32px;
+    }
+    .blanks{
+        display: flex;
+        flex-direction: row;
+        row-gap: 30px;
+        .cd{
+            margin-top: 40px;
+            width: 350px;
+            height: 387px;
+            background: #FCFEFF;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+            border-radius: 6px;
+            h6{ margin-top: 7px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 800;
+                font-size: 24px;
+                line-height: 48px;
+                text-align: center;
+            }
+            h4{ margin-top: 46px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 28px;
+                line-height: 40px;
+                text-align: center;
+            }
+            p{  margin-top: 32px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;    
+                text-align: center;
+            }
+            button{
+                margin-top: 46px;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                padding: 12px 32px;
+                gap: 10px;
+                background: #685ED6;    
+                box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.07);
+                border-radius: 6px;
+                border: none;
+                width: 287px;
+                height: 48px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 24px;
+                text-align: center;
+                color: white;
+            }
+        }
+    }
+}

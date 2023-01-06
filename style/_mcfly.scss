@@ -1,0 +1,96 @@
+.mcfly-container{
+    margin: 0 auto;
+    max-width: 1345px;
+    height: 555px;
+    background: rgba(242, 247, 255, 0.5);
+    h2{
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 46px;
+        line-height: 64px;
+        text-align: center;
+    }
+    .white{
+        margin-top: 48px;
+        display: flex;
+    }
+    .mcard-left{
+        width: 540px;
+        height: 220px;
+        background-image: url(../images/Card.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        
+        h5{
+            padding-top: 18px;
+            padding-right: 70px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 28px;
+            text-align: center;
+        }
+        p{
+            padding-top: 8px;
+            padding-right: 70px;
+            display: flex;
+            justify-content: center;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            text-align: center;
+            width: 400px;
+            height: 96px;
+        }
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        width: 173px;
+        gap: 10px;
+        .ic-tx{
+            h6{
+                width: 151px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 28px;
+            }
+            p{
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+    .slider{
+        margin-top: 32px;
+        width: 54px;
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        .l1{
+            width: 10px;
+            height: 10px;
+            border: 2px solid;
+            border: black;
+            background-color: darkorchid;
+            border-radius: 50%;
+        }
+        .l2{
+            width: 10px;
+            height: 10px;
+            border: 2px solid;
+            border: black;
+            background-color: black;
+            border-radius: 50%;
+        }
+    }
+}
